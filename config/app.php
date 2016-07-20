@@ -161,6 +161,8 @@ return [
 
         Styde\Html\HtmlServiceProvider::class,
 
+        Barryvdh\Cors\ServiceProvider::class,
+
 
     ],
 

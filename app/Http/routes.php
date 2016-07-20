@@ -358,6 +358,18 @@ Route::get('formato','CarbonController@formato');
 Route::get('addyear','CarbonController@addyear');
 Route::get('subyear','CarbonController@subyear');
 
+Route::get('angular/basico','AngularBasicoController@index');
+
+Route::get('angular/obtener','AngularBasicoController@http');
+
+Route::post('angular/crear','AngularHttpController@store');
+Route::post('angular/eliminar/{id}','AngularHttpController@destroy');
+Route::post('angular/mostrar/{id}','AngularHttpController@edit');
+Route::post('angular/actualizar/{id}','AngularHttpController@update');
+
+Route::get('angular/http','AngularHttpController@index');
+
+
 
 
 
