@@ -32,6 +32,6 @@ class Tablaclase extends Migration
     public function down()
     {
         //
-         Schema::drop('nombreclase');
+         Schema::drop('tablaclase');
     }
 }
